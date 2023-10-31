@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 from datetime import datetime, timedelta
+import numpy as np
 
 st.set_page_config(page_title='Produção',layout="wide", initial_sidebar_state="collapsed")
 st.title('Criação de Produção')
@@ -31,7 +32,7 @@ producao=ler_producao()
 #st.dataframe(sabores)
 #st.dataframe(producao)
 
-sabores_a_produzir=sabores.Sabor.unique()
+sabores_a_produzir=np.sort(sabores.Sabor.unique())
 #sabores_a_produzir
 
 
