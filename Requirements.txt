@@ -5,4 +5,4 @@ pandas
 streamlit>=1.22.0
 st-pages==0.3.0
 st-gsheets-connection
-streamlit_gsheets
+
