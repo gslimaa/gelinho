@@ -16,3 +16,4 @@ st-pages==0.3.0
 simple-salesforce==1.12.2
 streamlit_tags
 streamlit-aggrid
+st-gsheets-connection
