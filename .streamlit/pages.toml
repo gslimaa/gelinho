@@ -10,3 +10,7 @@ name = "Vender"
 path = "pages/producao.py"
 name = "Produzir"
 
+[[pages]]
+path = "pages/Análises.py"
+name = "Análises"
+
